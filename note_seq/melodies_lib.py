@@ -54,7 +54,7 @@ class Melody(events_lib.SimpleEventSequence):
 
   Melody is an intermediate representation that all melody models can use.
   Quantized sequence to Melody code will do work to align notes and extract
-  extract monophonic melodies. Model-specific code then needs to convert Melody
+  monophonic melodies. Model-specific code then needs to convert Melody
   to SequenceExample protos for TensorFlow.
 
   Melody implements an iterable object. Simply iterate to retrieve the melody
